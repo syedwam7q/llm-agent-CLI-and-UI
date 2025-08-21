@@ -2,7 +2,7 @@
 
 A production-ready AI assistant with tools, memory, and a stunning modern web interface inspired by ChatGPT/Gemini.
 
-**Created by: [Syed Wamiq](https://github.com/syedwamiq)**
+**Created by: [Syed Wamiq](https://github.com/syedwam7q)**
 
 ---
 
@@ -21,8 +21,8 @@ A production-ready AI assistant with tools, memory, and a stunning modern web in
 ### 1. Clone & Setup
 ```bash
 # Clone the repository
-git clone https://github.com/syedwam7q/llm-agent.git
-cd llm-agent
+git clone https://github.com/syedwam7q/llm-agent-CLI-and-UI.git
+cd llm-agent-CLI-and-UI
 
 # Run the automated setup script
 ./setup.sh
