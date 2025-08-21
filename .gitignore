@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+data/memory.db
+data/sessions.db
+
+# Uploaded Files
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+secrets/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Node.js (if any frontend dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Local Configuration
+config.local.py
+settings.local.py
+
+# Documentation Build
+docs/_build/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json

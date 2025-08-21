@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  llm-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llm-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    env_file:
+      - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.path.insert(0, 'src'); from config import settings; print('healthy')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
