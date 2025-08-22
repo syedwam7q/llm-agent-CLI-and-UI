@@ -360,25 +360,6 @@ pip install --upgrade pip
 pip install -r requirements.txt --force-reinstall
 ```
 
-### Git Safety Features
-
-This project includes built-in Git safety features to prevent accidental exposure of API keys:
-
-```bash
-# Check for sensitive files before committing
-./git-safety-check.sh
-
-# Prepare project for Git (cleans up sensitive data)
-./prepare-for-git.sh
-```
-
-**Automatic protections:**
-- ✅ `.env` files are automatically ignored
-- ✅ Database files are excluded from Git
-- ✅ Upload directories are cleaned
-- ✅ Python cache files are ignored
-- ✅ Safety checks before Git operations
-
 ### Getting Help
 
 - Run `./setup.sh` for automated setup
@@ -394,7 +375,7 @@ This project includes built-in Git safety features to prevent accidental exposur
 **Created by: [Syed Wamiq](https://github.com/syedwam7q)**
 
 This project represents a modern, production-ready AI assistant with:
-- Professional ChatGPT-like interface
+- Professional CLI+UI interface
 - Advanced tool integration
 - Real-time streaming capabilities
 - Mobile-responsive design
@@ -404,7 +385,7 @@ This project represents a modern, production-ready AI assistant with:
 
 ## 🌟 **Showcase**
 
-The LLM Agent features a completely redesigned modern interface that rivals commercial AI assistants:
+The Local LLM Agent [LLA] features a completely redesigned modern interface that rivals commercial AI assistants:
 
 - **Modern Design**: Glassmorphism effects, smooth animations, professional typography
 - **Advanced Features**: File uploads, real-time streaming, markdown rendering
