@@ -1,6 +1,6 @@
 # 🤖 LLM Agent v2.0.0 - Modern Web UI + CLI
 
-A production-ready AI assistant with tools, memory, and a stunning modern web interface inspired by ChatGPT/Gemini.
+A production-ready AI assistant with tools, memory, and a stunning modern web interface that works LOCALLY on your device!
 
 **Created by: [Syed Wamiq](https://github.com/syedwam7q)**
 
@@ -8,8 +8,9 @@ A production-ready AI assistant with tools, memory, and a stunning modern web in
 
 ## ✨ Features
 
+- 🧠 **AI-Agents, Right on Your Device** - Run and collaborate with intelligent agents locally, directly on your system.
 - 🧠 **Multi-LLM Support** - OpenAI GPT models with extensible provider system
-- 🛠️ **12 Built-in Tools** - Search, computation, file operations, data analysis
+- 🛠️ **12 Built-in Tools** - Search, computation, file operations, data analysis, all local operations
 - 💾 **Persistent Memory** - SQLite-based conversation storage
 - 🌐 **Modern Web UI** - ChatGPT-inspired interface with real-time streaming
 - 💻 **Beautiful CLI** - Rich formatting with interactive chat interface
