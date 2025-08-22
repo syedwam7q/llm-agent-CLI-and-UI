@@ -159,6 +159,12 @@ python src/main.py chat --web-ui --port 8001
 
 💬 You: Search for the latest AI news
 🤖 Assistant: [Uses web search tool to find current AI news]
+
+💬 You: Change the 'Author Name' to 'Syed Wamiq' in "xxx/xx/x.file" and change its file type to .docx
+🤖 Assistant: [Edits the file for you and also changes its file type]
+
+💬 You: Summarize the file "xxx/xx/x/file" and provide any key links mentioned
+🤖 Assistant: [Uses file reader tool and provides comprehensive summary whilst mentioning useful links]
 ```
 
 ### Available Commands in Chat
