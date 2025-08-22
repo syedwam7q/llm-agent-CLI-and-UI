@@ -22,8 +22,8 @@ A production-ready AI assistant with tools, memory, and a stunning modern web in
 ### 1. Clone & Setup
 ```bash
 # Clone the repository
-git clone https://github.com/syedwam7q/llm-agent-CLI-and-UI.git
-cd llm-agent-CLI-and-UI
+git clone https://github.com/syedwam7q/local-llm-agent-CLI-and-UI.git
+cd local-llm-agent-CLI-and-UI
 
 # Run the automated setup script
 ./setup.sh
