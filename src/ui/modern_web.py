@@ -1,5 +1,5 @@
 """
-Modern Web UI for LLM Agent - Inspired by ChatGPT/Gemini
+Modern Web UI for LLM Agent - Inspired by ChatGPT/Gemini [Modern LLM Agent Interfaces]
 Created by: Syed Wamiq
 
 Features:

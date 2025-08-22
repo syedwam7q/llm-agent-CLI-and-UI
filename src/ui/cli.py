@@ -269,6 +269,35 @@ class CLI:
                     padding=(1, 2)
                 )
                 self.console.print(response_panel)
+
+                # Extract and print plain clickable links for terminal (Cmd/Ctrl+Click)
+                try:
+                    import re as _re
+                    urls = []
+
+                    # Markdown-style links: [text](https://...)
+                    for m in _re.finditer(r"\[[^\]]+\]\((https?://[^\s)]+)\)", response):
+                        url = m.group(1)
+                        if url not in urls:
+                            urls.append(url)
+
+                    # Bare URLs: https://...
+                    for m in _re.finditer(r"(https?://[^\s\)>\]]+)", response):
+                        url = m.group(1)
+                        # Strip trailing punctuation that often follows URLs in prose
+                        url = url.rstrip('.,;!?)]')
+                        if url not in urls:
+                            urls.append(url)
+
+                    if urls:
+                        self.console.print()  # spacing
+                        self.console.print("[bold]Links:[/bold]")
+                        for u in urls:
+                            # Print raw URL to ensure terminal auto-links it
+                            self.console.print(u)
+                except Exception:
+                    # Never let link extraction break the chat flow
+                    pass
             
             except Exception as e:
                 self.console.print(Panel(
