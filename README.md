@@ -1,4 +1,4 @@
-# 🤖 LLM Agent v2.0.0 - Modern Web UI + CLI
+# 🤖 LOCAL LLM Agent v2.0.0 – Sleek Web UI + Powerful CLI, right on your machine.
 
 A production-ready AI assistant with tools, memory, and a stunning modern web interface that works LOCALLY on your device!
 
