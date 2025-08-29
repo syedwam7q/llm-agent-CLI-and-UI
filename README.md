@@ -8,14 +8,14 @@ A production-ready AI assistant with tools, memory, and a stunning modern web in
 
 ## ✨ Features
 
-- 🧠 **AI-Agents, Right on Your Device** - Run and collaborate with intelligent agents locally, directly on your system.
-- 🧠 **Multi-LLM Support** - OpenAI GPT models with extensible provider system
-- 🛠️ **12 Built-in Tools** - Search, computation, file operations, data analysis, all local operations
-- 💾 **Persistent Memory** - SQLite-based conversation storage
-- 🌐 **Modern Web UI** - ChatGPT-inspired interface with real-time streaming
-- 💻 **Beautiful CLI** - Rich formatting with interactive chat interface
-- 🔧 **Extensible** - Easy to add new tools and capabilities
-- ⚡ **Dual Interface** - Choose between modern web UI or efficient CLI
+**AI-Agents, Right on Your Device** - Run and collaborate with intelligent agents locally, directly on your system:
+- 🧠  **Multi-LLM Support** - OpenAI GPT models with extensible provider system
+- 🛠️  **12 Built-in Tools** - Search, computation, file operations, data analysis, all local operations
+- 💾  **Persistent Memory** - SQLite-based conversation storage
+- 🌐  **Modern Web UI** - ChatGPT-inspired interface with real-time streaming
+- 💻  **Beautiful CLI** - Rich formatting with interactive chat interface
+- 🔧  **Extensible** - Easy to add new tools and capabilities
+- ⚡  **Dual Interface** - Choose between modern web UI or efficient CLI
 
 ## 🚀 Quick Start
 
